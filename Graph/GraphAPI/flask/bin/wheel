@@ -1,0 +1,11 @@
+#!/Users/Jenny/Desktop/cs242/Assignment2.0/Scraper/Graph/GraphAPI/flask/bin/python3.5
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from wheel.tool import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
